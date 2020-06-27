@@ -21,7 +21,7 @@ return(
         <input className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password" />
       </div>
       <label className="pa0 ma0 lh-copy f6 pointer"><input type="checkbox"/> Remember me</label>
-    </fieldset>
+   
     <div className="">
       <input 
       onClick={() => onRouteChange('home')}
@@ -29,6 +29,7 @@ return(
       type="submit" 
       value="Register" />
     </div>
+   </fieldset>
   </form>
 </main>
 </article>
